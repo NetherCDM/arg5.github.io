@@ -1,0 +1,151 @@
+@font-face{
+	font-family:Coolvetica;
+	src:url("fuentes/coolvetica rg.otf");
+} 
+@font-face{
+	font-family:Roboto;
+	src:url("fuentes/Roboto-Black.ttf");
+} 
+.escudo{
+	display:block; 
+	margin:auto; 
+}
+.libertadores{
+	background-image: url("imagenes/libertadores.jpg");
+	background-size:cover;
+	color:white;
+}
+.underline{
+	margin-left:10%;
+	margin-right:10%;
+	border-bottom:solid;
+}
+.escudos{
+    margin-left: auto;
+    margin-right: auto;
+}
+.galeria{
+	display:block;
+	margin:auto;
+	border-radius:10px;
+	box-shadow:0px 0px 10px black;
+}
+.galeriafondo{
+	background-color:black;
+	color:white;
+}
+.index:link{
+	color:white;
+	text-shadow: 0px 0px 0px 10px black;
+	text-align:center;
+}
+.index:hover{
+	color:white;
+	text-shadow:0px 0px 10px white;
+	text-decoration:none;
+	text-align:center;
+}
+.index:visited{
+	color:white;
+	text-shadow: 0px 0px 0px 10px black;
+	text-align:center;
+}
+.links{
+	text-align:center;
+}
+.margin{
+	margin-left:10%;
+	margin-right:10%;
+}
+.boca{
+	background-color:#034ea2;
+	color:#ffde00;
+}
+.independiente{
+	background-color:#ed1c24;
+	color:white;
+}
+.casla{
+	background-color:#263a54;
+	color:#ea202c;
+	text-shadow:0px 0px 3px black;
+}
+.racing{
+	background-color:#009ee0;
+	color:white;
+	text-shadow:0px 0px 3px black;
+}
+.river{
+	color:#eb172b;
+}
+h1{
+	text-align:center;
+	font-family:Coolvetica;
+}
+h2{
+	text-align:center;
+	font-family:Coolvetica;
+	margin-left:10%;
+	margin-right:10%;
+	border-bottom:solid;
+}
+h3{
+	margin-left:10%;
+	margin-right:10%;
+	font-family:Roboto;
+	text-shadow:0px 0px 3px white;
+}
+h4{
+	margin-left:10%;
+	margin-right:10%;
+	font-family:Roboto;
+	text-shadow:0px 0px 10px white;
+}
+p{
+	margin-left:10%;
+	margin-right:10%;
+	font-family:Arial;
+	text-align:justify;
+}
+li{
+	margin-left:10%;
+	margin-right:10%;
+	font-family:Arial;
+}
+ol{
+	margin-left:10%;
+	margin-right:10%;
+	margin-left:2%;
+}
+table, th{
+	margin-left:10%;
+	margin-right:10%;
+	border: 1px solid;
+	font-size:25px;
+	width:80%;
+	border:solid;
+	border-collapse:collapse;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+td{
+	border:solid;
+	border-width:2px;
+	border-radius:2px;
+	text-shadow: 0px 0px 2px black;	
+	font-family:Roboto;
+}
+a:link{
+	color:black;
+	text-decoration:none;
+}
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	color:white;
+	text-shadow:0px 0px 10px black;
+	text-decoration:none;
+}
